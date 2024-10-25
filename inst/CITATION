@@ -1,0 +1,12 @@
+bibentry(
+     bibtype = "Manual",
+     title = "ECHO: Internal ECHO Tools for Analyzing HMIS Data",
+     author = c(
+       person("Christopher", "Murray", role = c("aut", "cre"), email = "christophermurray@austinecho.org"),
+       person("Mason", "Turpin", role = "aut"),
+       person("Akram", "Al-Turk", role = c("aut", "rev"))
+     ),
+     year = "2023",
+     note = "R package version 0.1.0",
+     url = "https://github.com/echoatx/echo-rpkg"
+  )
