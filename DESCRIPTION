@@ -1,0 +1,44 @@
+Type: Package
+Package: ECHO
+Title: Internal ECHO Tools for Analyzing HMIS Data
+Version: 0.1.0
+Author: Christopher Murray; Mason Turpin; Akram Al-Turk; Claire Burrus
+Maintainer: Christopher Murray <christophermurray@austinecho.org>
+Description: This package contains reusable functions for common
+    repetitive tasks when reading, viewing, cleaning, and analyzing HMIS
+    data, especially from the .csv files in the HMIS XML Exports.
+License: use_bsd0_license()
+URL: https://www.austinecho.org, https://github.com/echoatx/echo-rpkg
+BugReports: https://github.com/echoatx/echo-rpkg/issues
+Depends: 
+    R (>= 4.1.0)
+Imports:
+    cli,
+    dplyr (>= 1.1.1),
+    encryptr,
+    fs,
+    here,
+    lifecycle,
+    lubridate,
+    magrittr,
+    purrr,
+    readr,
+    readxl,
+    rlang,
+    tibble,
+    tidyr,
+    tidyselect
+Suggests:
+    forcats,
+    glue,
+    janitor,
+    knitr,
+    R6,
+    rmarkdown,
+    rstudioapi
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.1
+SystemRequirements: Dropbox, Microsoft Windows
+VignetteBuilder: knitr

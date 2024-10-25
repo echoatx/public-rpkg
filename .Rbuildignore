@@ -1,0 +1,9 @@
+^.*\.Rproj$
+^\.Rproj\.user$
+^ECHO\.Rcheck$
+^ECHO.*\.tar\.gz$
+^ECHO.*\.tgz$
+^README\.Rmd$
+^_pkgdown\.yml$
+^docs$
+^pkgdown$

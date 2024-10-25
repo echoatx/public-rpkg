@@ -1,0 +1,11 @@
+.Rproj.user
+.Rhistory
+.RData
+.Ruserdata
+.DS_Store
+ECHO.Rcheck/
+ECHO*.tar.gz
+ECHO*.tgz
+echo-dark.rstheme
+inst/doc
+docs
